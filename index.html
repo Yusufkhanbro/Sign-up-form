@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align:center;
+            margin:400px;
+        }
+        input{
+            width:500px;
+            height:45px;
+            text-align: center;
+            border-radius: 100px;
+            border:none;
+            outline: none;
+            background-color: goldenrod;
+            font-weight: 1000;
+        }
+        input::placeholder{
+            font-weight:1000;
+        }
+        button{
+            width:400px;
+            height:45px;
+            border-radius: 100px;
+            border:none;
+            outline:none;
+            background-color: tomato;
+            font-weight: 1000;
+            transition:0.1s;
+        }
+        button:active{
+            transform:translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Sign Up</legend>
+        <input type="text" placeholder="Gmail"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <button>Sign Up</button>
+        </fieldset>
+    </form>
+</body>
+</html>
